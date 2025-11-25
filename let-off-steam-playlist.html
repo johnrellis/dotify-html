@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="has-background-black" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dotify - Your.Music</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/versions/bulma-no-dark-mode.min.css" />
+  <script src="js/bulma.js"></script>
+  <script src="js/dotify.js"></script>
+  <script src="js/components/playlist-item.js"></script>
+  <script src="js/data-store.js"></script>
+</head>
+
+<body>
+  <!-- START NAV -->
+  <nav class="navbar has-background-black">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <img src="/images/logo-with-name.png" alt="Logo" />
+      </a>
+      <span class="navbar-burger has-background-black" data-target="navbarMenu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </span>
+    </div>
+    <div id="navbarMenu" class="navbar-menu">
+      <div class="navbar-end has-background-black">
+        <a class="navbar-item has-text-white">
+          Home
+        </a>
+        <a class="navbar-item has-text-white">
+          Playlists
+        </a>
+        <a class="navbar-item has-text-white">
+          Artists
+        </a>
+        <a class="navbar-item has-text-white">
+          Songs
+        </a>
+        <a class="navbar-item has-text-white">
+          About
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+  <main class="columns is-multiline box has-background-grey-darker is-centered is-vcentered">
+    <div class="column is-12 has-text-centered has-text-white">
+      <p class="is-size-1">Let Off Steam</p>
+    </div>
+    <div class="column is-4">
+      <section class="card has-text-centered">
+        <header class="card-header">
+          <p class="card-header-title is-size-4 is-centered">
+            Let Off Steam
+          </p>
+        </header>
+        <div class="card-image">
+          <figure class="image">
+            <img src="https://images.unsplash.com/photo-1520809227329-2f94844a9635" alt="Image">
+          </figure>
+        </div>
+        <article class="card-content">
+          <p class="content is-size-4">
+            Sure this is a great playlist
+          </p>
+        </article>
+        <footer class="card-footer">
+          <button class="card-footer-item button has-background-grey-lighter">Play</button>
+          <button class="card-footer-item button has-background-grey-lighter">Open</button>
+          <button class="card-footer-item button has-background-grey-lighter">Remove</button>
+        </footer>
+      </section>
+    </div>
+    <div class="column is-8">
+      <table class="table is-fullwidth">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Grudge</td>
+            <td>Tool</td>
+            <td>8:35</td>
+          </tr>
+          <tr>
+            <td>The Grudge</td>
+            <td>Tool</td>
+            <td>8:35</td>
+          </tr>
+          <tr>
+            <td>The Grudge</td>
+            <td>Tool</td>
+            <td>8:35</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="footer has-background-black has-text-white">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <img class="image is-16x16 is-inline" src="/images/logo-white.png" alt="dotify"> Dotify - Your.Music
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
