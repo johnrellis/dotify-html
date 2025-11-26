@@ -1,31 +1,14 @@
 ---
 layout: layout.njk
 title: Focus Playlist
+playlistTitle: Focus
+playlistImage: https://images.unsplash.com/photo-1453728013993-6d66e9c9123a
+playlistDescription: A playlist to focus your mind
+playlistPath: /focus-playlist
 ---
-<div class="column is-4">
-  <section class="card has-text-centered">
-    <header class="card-header">
-      <p class="card-header-title is-size-4 is-centered">
-        Focus
-      </p>
-    </header>
-    <div class="card-image">
-      <figure class="image">
-        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a" alt="Image">
-      </figure>
-    </div>
-    <article class="card-content">
-      <p class="content is-size-4">
-        A playlist to focus to
-      </p>
-    </article>
-    <footer class="card-footer">
-      <button class="card-footer-item button has-background-grey-lighter">Play</button>
-      <button class="card-footer-item button has-background-grey-lighter">Open</button>
-      <button class="card-footer-item button has-background-grey-lighter">Remove</button>
-    </footer>
-  </section>
-</div>
+
+{% include "playlist-card-component.njk" %}
+
 <div class="column is-8">
   <table class="table is-fullwidth">
     <thead>
